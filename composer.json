@@ -1,0 +1,28 @@
+{
+    "name": "mchellamuthu/textlocal",
+    "description": "TextLocal API for Laravel 5.5",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chella",
+            "email": "mchellamuthu@live.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Mchellamuthu\\Textlocal\\": "src/"
+        }
+    },
+  "extra": {
+        "laravel": {
+            "providers": [
+                "Mchellamtuhu\\Textlocal\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
